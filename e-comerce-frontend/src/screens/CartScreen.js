@@ -37,7 +37,7 @@ const CartScreen = () => {
   };
 
   const handleProceedBtn = () => {
-    alert("Functionality pending please stay tune, will be add soon.");
+    alert("Thank you for shopping.");
   };
 
   if (loginInfo.loading) return <h1>Loading.....</h1>;
@@ -74,7 +74,7 @@ const CartScreen = () => {
                 title="Functionality need to be add."
                 onClick={handleProceedBtn}
               >
-                Proceed To Checkout
+                Buy Now
               </button>
             </div>
           </div>
